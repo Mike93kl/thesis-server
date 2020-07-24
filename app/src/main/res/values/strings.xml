@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Thesis-Server</string>
+    <string name="loading_dev">Waiting for devices to connect</string>
+</resources>

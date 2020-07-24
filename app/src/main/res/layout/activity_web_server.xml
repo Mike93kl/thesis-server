@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QueryDeviceActivity">
+
+
+    <TextView
+        android:id="@+id/connCodeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Not Connected Yet"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connCodeView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="97dp"
+        android:text="Connected Users"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+</RelativeLayout>
